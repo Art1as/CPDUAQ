@@ -1,0 +1,184 @@
+header{
+    width: 100%;
+    background-color:rgb(8, 48, 60);
+    border-radius: 500px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 86%;
+    margin: 0% auto;
+    border-radius: 20px;
+    padding: 0%;
+    background-color: rgb(8, 48, 60);
+}
+body{
+    background-color: rgb(105, 60, 195);
+    font-family: 'Crafty Girls', cursive;
+}
+.logo{
+    width: 1200px;
+    height: 120px;
+    display: block;
+    margin: 5px auto;
+    padding: 2%;
+    overflow: auto;
+}
+.logo2{
+    width: 60px;
+    display: block;
+    margin: 10px auto;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 0%;
+    border-radius: 20px;
+    margin: 0%;
+}
+.menu li{
+    width: 33%;
+    text-align: center;
+    height: 50px;
+}
+.menu li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(8, 48, 60);
+    color:rgb(182, 145, 255)
+}
+.menu li a:hover{
+    background-color: rgb(56, 38, 66);
+    color:rgb(156, 121, 189);
+}
+.divid{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: rgb(255, 117, 105);
+    padding: 1%;
+    margin: 2% auto;
+    border: rgb(180, 89, 9) 2px solid;
+    border-radius: 30px;
+}
+.divid a{
+    color: black;
+    text-decoration: none;
+}
+.divid img{
+    max-width: 18%;
+    display: block;
+}
+.dividS{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgb(255, 117, 105);
+    padding: 1%;
+    margin: 1% auto;
+    border: rgb(180, 89, 9) 2px solid;
+    border-radius: 30px;
+}
+.reversi{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.reversi img{
+    width: 18%;
+    display: block;
+}
+.side img{
+    margin: 0% 3%;
+    max-width: 20%;
+}
+footer{
+    background-color: rgb(8, 48, 60);
+    padding: 1%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+footer p{
+    color: rgb(178, 250, 250);
+}
+.center{
+    display: block;
+    margin: 0% auto;
+    text-align: center;
+    justify-content: center;
+}
+.center img{
+    align-content: center;
+    align-items: center;
+    width: 20%;
+    display: block;
+    margin: 0% auto;
+}
+.centerP{
+    display: block;
+    margin: 0% auto;
+    text-align: center;
+    justify-content: center;
+}
+.centerP img{
+    align-content: center;
+    align-items: center;
+    min-width: 113%;
+    display: block;
+    margin: 0% auto;
+}
+.justificado{
+    display: block;
+    white-space: normal;
+    text-align: justify;
+    max-width: 80%;
+    text-overflow: hidden;
+    margin: 0% auto;
+}
+.justificadoP{
+    display: block;
+    white-space: normal;
+    text-align: justify;
+    max-width: 100%;
+    text-overflow: hidden;
+    margin: 0% auto;
+}
+.ace{
+    max-width: 250px;
+    height: 450px;
+    background-color:rgb(255, 117, 105);
+    border: rgb(180, 89, 9) 2px solid;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    text-align: center;
+}
+.ace p{
+    max-height: 2%;
+}
+.cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ace img{
+    position: relative;
+    top: 3%;
+    max-width: 180px;
+    /* margin: 10px auto; */
+}

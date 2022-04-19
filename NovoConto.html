@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CriarConto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='SLASLA.css'>
+</head>
+<body>
+    <div class="flex horizontal">
+        <select name="new" id="new">
+            <option value="text">Parágrafo</option>
+            <option value="file">Imagem</option>
+        </select>
+        <button onclick="addElement()">ADD</button>
+    </div>
+
+    <form id="formulario" class="flex horizontal" action="CreateConto.php" method="post">
+        <label for="titulo">Título</label>
+        <input type="text" name="titulo" id="titulo">
+        <label for="content">Conteúdo</label>
+        <div id="fields" name="content" class="flex Vertical">
+
+        </div>
+        <input type="text" name="conteudo" id="conteudo" hidden>
+        <label for="autor">Autor</label>
+        <input type="text" name="autor" id="autor">
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data">
+
+        <input type="submit" onclick="turnIntoText()" value="SALVAR">
+    </form>
+    <script src="createPage.js"></script>
+</body>
+</html>
