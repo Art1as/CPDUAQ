@@ -1,2 +1,2 @@
-# CPDUAQ
+# CPduAQ
 Sei lá, contos meus qualquer...
