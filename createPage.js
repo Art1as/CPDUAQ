@@ -8,8 +8,8 @@ function addElement() {
     formulario.appendChild(element);
 }
 
-function turnIntoText() {
-    let fields = document.getElementsById("fields");
-    let conteudo = document.getElementById("conteudo");
-    conteudo.value = fields.outerHTML;
+function getContent() {
+    let content= document.getElementById("fields");
+    let data = document.getElementById("conteudo");
+    data.value = content.outerHTML;
 }
