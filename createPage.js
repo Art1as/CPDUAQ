@@ -11,5 +11,5 @@ function addElement() {
 function turnIntoText() {
     let fields = document.getElementsById("fields");
     let conteudo = document.getElementById("conteudo");
-    conteudo.value = fields.textContent;
+    conteudo.value = fields.outerHTML;
 }
