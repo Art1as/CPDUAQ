@@ -6,7 +6,6 @@
     <title>CriarConto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='SLASLA.css'>
-    <script src='main.js'></script>
 </head>
 <body>
     <div class="flex horizontal">
@@ -17,7 +16,7 @@
         <button onclick="addElement()">ADD</button>
     </div>
 
-    <form id="formulario" class="flex horizontal" action="CreateConto.php" method="post">
+    <form id="formulario" class="flex horizontal" action="create.php" method="post">
         <label for="titulo">Título</label>
         <input type="text" name="titulo" id="titulo">
         <label for="content">Conteúdo</label>
@@ -30,7 +29,7 @@
         <label for="data">Data</label>
         <input type="date" name="data" id="data">
 
-        <input type="submit" onclick="turnIntoText()" value="SALVAR">
+        <input onclick="turnIntoText()" type="submit" value="SALVAR">
     </form>
     <script src="createPage.js"></script>
 </body>

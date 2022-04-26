@@ -6,9 +6,10 @@
     $data = $_POST['data'];
 
     $conteudo = htmlentities(addslashes($conteudo));
-    $sql = 'INSERT INTO posts (titulo, conteudo, autor, data)
+    $sql = 'INSERT INTO contos (titulo, conteudo, autor, data)
     VALUES ("'.$titulo.'","'.$conteudo.'","'.$autor.'","'.$data.'")';
-
+    
+    echo $conteudo;
     $RESULT = $conn->exec($sql);
     if ($RESULT == TRUE) {
         echo "New record created sucessfully";
